@@ -9,6 +9,9 @@ gem 'rails', '~> 5.2.0'
 group :development do
   gem 'sqlite3'
 end
+
+gem 'bootstrap-sass', '~> 3.3.7'
+
 # Use postgresql as the database for production
 group :production do
   gem 'pg'
